@@ -1,0 +1,47 @@
+<!--JRS Coding School 
+Calculator
+Name: Luis Lozoya - 01/12/20-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="Calculator.css">
+    <script src="Calculator.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="calculator">
+        <input id="result" class="input">
+
+        <div class="keys">
+            <button onclick="reset()" type="button" class="top-button1" value="AC">AC</button>
+            <button onclick="backspace()" type="button" class="top-button2" value="delated">C</button>
+            <button onclick="porcentage()" type="button" class="top-button3" value="%">%</button>
+            
+            <button onclick="buttonPressed('/')" type="button" class="operator1" value="/">/</button>
+            <button onclick="buttonPressed('*')" type="button" class="operator2" value="*">x</button>
+            <button onclick="buttonPressed('-')" type="button" class="operator3" value="-">-</button>
+            <button onclick="buttonPressed('+')" type="button" class="operator4" value="+">+</button>
+            <button onclick="buttonPressed('=')" type="button" class="operator5" value="=">=</button>
+            
+            <button onclick="buttonPressed(7)" type="button" class="number7" value="7">7</button>
+            <button onclick="buttonPressed(8)" type="button" class="number8" value="8">8</button>
+            <button onclick="buttonPressed(9)" type="button" class="number9" value="9">9</button>
+            <button onclick="buttonPressed(4)" type="button" class="number4" value="4">4</button>
+            <button onclick="buttonPressed(5)" type="button" class="number5" value="5">5</button>
+            <button onclick="buttonPressed(6)" type="button" class="number6" value="6">6</button>
+            <button onclick="buttonPressed(1)" type="button" class="number1" value="1">1</button>
+            <button onclick="buttonPressed(2)" type="button" class="number2" value="2">2</button>
+            <button onclick="buttonPressed(3)" type="button" class="number3" value="3">3</button>
+            
+            <button onclick="buttonPressed(0)" type="button" class="number0" value="0">0</button>
+            <button onclick="buttonPressed('.')" type="button" class="number-dot" value=".">.</button>
+        </div>
+    </div>
+</body>
+
+</html>
