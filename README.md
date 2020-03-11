@@ -1,1 +1,1 @@
-Preview: https://javierlozo.github.io/Calculator/Calculator.html
+Preview: https://javierlozo.github.io/Calculator/
